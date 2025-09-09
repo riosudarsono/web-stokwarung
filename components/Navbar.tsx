@@ -72,7 +72,7 @@ export default function Navbar() {
             </div>
 
             {/* Authentication - Desktop */}
-            <div className='hidden sm:block'>
+            {/* <div className='hidden sm:block'>
               <SignedOut>
                 <SignInButton>
                   <button className='relative overflow-hidden bg-gradient-to-r from-emerald-500 via-green-500 to-teal-500 hover:from-emerald-600 hover:via-green-600 hover:to-teal-600 text-white px-3 sm:px-4 py-2 rounded-lg sm:rounded-xl text-xs sm:text-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 active:scale-95'>
@@ -110,7 +110,7 @@ export default function Navbar() {
                   />
                 </div>
               </SignedIn>
-            </div>
+            </div> */}
 
             {/* Mobile Menu Button */}
             <button
@@ -182,7 +182,7 @@ export default function Navbar() {
             </Link>
 
             {/* Mobile Authentication */}
-            <div className='pt-3 border-t border-gray-200/50 dark:border-gray-600/50'>
+            {/* <div className='pt-3 border-t border-gray-200/50 dark:border-gray-600/50'>
               <SignedOut>
                 <SignInButton>
                   <button
@@ -220,7 +220,7 @@ export default function Navbar() {
                   />
                 </div>
               </SignedIn>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
